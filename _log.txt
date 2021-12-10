@@ -1,0 +1,8 @@
+
+ {3a52813d-7047-4c47-8bb6-f060db060cf3,Salut}
+ {529e5cf6-74c2-4375-ba6d-76084e6808d0,les}
+ {37d74a8b-c636-4d71-8354-940c80527c02,gens}
+
+ {id: fd584182-ce2e-498d-8890-45fc2793d4fb, message: Salut}
+ {id: e214c415-68c4-4437-8578-0d6c9c33834d, message: les}
+ {id: bdbd5bf9-2175-4aa2-bc04-993729915218, message: gens}
