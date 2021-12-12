@@ -2,6 +2,8 @@ const http = require('http');
 const path = require('path');
 const fs = require('fs');
 
+const PORT = process.env.PORT || 5000;
+
 const server = http.createServer((req, res) => {
  
   const filepath = path.join(
@@ -72,7 +74,10 @@ const server = http.createServer((req, res) => {
 	
 });
 
-server.listen(4321, () => console.log('Server is running..'));
+server.listen(
+	PORT, 
+	() => console.log(`Server is running in the port ${PORT}..`)
+);
 
 
 
